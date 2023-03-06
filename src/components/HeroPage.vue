@@ -28,7 +28,9 @@
 .container{
     padding: 2rem;
     display: flex;
+    margin: 0 auto;
     align-items: center;
+    justify-content: center;
     flex-direction: column;
     width: 16rem;
     height: 25rem;
@@ -48,5 +50,22 @@ p {
     color: gray;
     font-size: 15px;
 }
+@media (max-width: 678px){
+    .container {
+    padding: 2rem;
+    margin: 2rem -2rem;
+    padding-left: 2rem;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: rem;
+    height: 25rem;
+    background-color: #ffffff;
+    border-radius: 10px; 
+}
+
+}
+
   </style>
   

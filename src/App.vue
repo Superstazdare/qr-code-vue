@@ -27,4 +27,13 @@ html, body {
   text-align: center;
   align-items: center;
 }
+/* @media (max-width: 678px){
+  html, body {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  padding: 2.1rem;
+  margin: 0;
+  }
+} */
 </style>
